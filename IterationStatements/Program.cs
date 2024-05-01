@@ -1,23 +1,70 @@
-﻿namespace IterationStatements
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.Design;
+
+namespace IterationStatements
 {
     public class Program
     {
         //LukeWarm Section: Create methods below
+         public void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
         //Write a method that will print to the console all numbers 1000 through - 1000
-
+           public static void PrintThousand()
+        {
+            for (int i = 1000; i >= -1000; i--)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        
         //Write a method that will print to the console numbers 3 through 999 by 3 each time
+
+        public static void Threes()
+        {
+            for(int k = 3; k <= 999; k+= 3)
+            {
+                Console.WriteLine(k);
+            }
+        }
+
 
         //Write a method to accept two integers as parameterss and check whether they are equal or not
         
+        public static bool EqualOrNot(int a, int b)
+        {
+          var checker = (a == b) ? true : false;
+            return checker;
+        }
+
         //Write a method to check whether a given number is even or odd
-        
+
+        public static bool EvenOrOdd(int a, int b)
+        {
+            var checker = a == b ? Odd: Even;
+            return checker;
+        }
+             
+
+            
+            
         //Write a method to check whether a given number is positive or negative
         
+        public static bool PositiveOrNegative(int a, int b)
+        {
+            var checker = a == b ? Positive : Negatve;
+        }
+
         //Write a method to read the age of a candidate and determine whether they can vote.
         //Hint: Use Parse or the safer TryParse() for an extra challenge
         //Parse()
         //TryParse()
-
+        public static bool YesOrNo(int a, int b)
+        {
+            var checker = a == b ? true : false;
+            return checker;
+        }
         //Heatin Up Section:
         //Write a method to check if an integer(from the user) is in the range -10 to 10
         
@@ -25,7 +72,7 @@
 
 
         //Call the methods to test them in the Main method below
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             
         }
