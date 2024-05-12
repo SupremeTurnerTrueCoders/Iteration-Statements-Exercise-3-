@@ -36,13 +36,16 @@ namespace IterationStatements
         {
           var checker = (a == b) ? true : false;
             return checker;
-        }
 
+            
+        }
+        
+        
         //Write a method to check whether a given number is even or odd
 
         public static bool EvenOrOdd(int a, int b)
         {
-            var checker = a == b ? Odd: Even;
+            var checker = a == b ? true : false;
             return checker;
         }
              
@@ -53,7 +56,8 @@ namespace IterationStatements
         
         public static bool PositiveOrNegative(int a, int b)
         {
-            var checker = a == b ? Positive : Negatve;
+            var checker = a == b ? true : false;
+            return checker;
         }
 
         //Write a method to read the age of a candidate and determine whether they can vote.
