@@ -6,9 +6,17 @@ namespace IterationStatements
     public class Program
     {
         //LukeWarm Section: Create methods below
-         public void Main(string[] args)
+         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PrintThousand();
+                Threes();
+            EqualOrNot(5,5);
+            EvenOrOdd(8);
+            PositiveOrNegative(4,5);
+            YesOrNo(4,4);
+
+
+            //Console.WriteLine("Hello World!");
         }
         //Write a method that will print to the console all numbers 1000 through - 1000
            public static void PrintThousand()
@@ -35,17 +43,22 @@ namespace IterationStatements
         public static bool EqualOrNot(int a, int b)
         {
           var checker = (a == b) ? true : false;
+
+            Console.WriteLine(checker);
+
             return checker;
 
-            
         }
         
         
         //Write a method to check whether a given number is even or odd
 
-        public static bool EvenOrOdd(int a, int b)
+        public static bool EvenOrOdd(int a)
         {
-            var checker = a == b ? true : false;
+            var checker = a % 2 == 0 ? true : false;
+
+            Console.WriteLine(checker);
+
             return checker;
         }
              
@@ -76,9 +89,6 @@ namespace IterationStatements
 
 
         //Call the methods to test them in the Main method below
-        static void main(string[] args)
-        {
-            
-        }
+        
     }
 }

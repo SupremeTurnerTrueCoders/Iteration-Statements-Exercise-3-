@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\turne\\repos\\Iteration-Statements-Exercise-3-\\IterationStatements\\IterationStatements.csproj",
-      "projectName": "IterationStatements",
-      "projectPath": "C:\\Users\\turne\\repos\\Iteration-Statements-Exercise-3-\\IterationStatements\\IterationStatements.csproj",
+      "projectUniqueName": "C:\\Users\\turne\\repos\\Iteration-Statements-Exercise-3-\\IterationStatements\\IterationStatement4.csproj",
+      "projectName": "IterationStatement4",
+      "projectPath": "C:\\Users\\turne\\repos\\Iteration-Statements-Exercise-3-\\IterationStatements\\IterationStatement4.csproj",
       "packagesPath": "C:\\Users\\turne\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\turne\\repos\\Iteration-Statements-Exercise-3-\\IterationStatements\\obj\\",
       "projectStyle": "PackageReference",
